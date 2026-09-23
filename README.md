@@ -11,6 +11,16 @@ pinned: false
 
 # Sfumato Idea Engine
 
+Sfumato is an idea-generation service for open-ended problems. It creates
+independent inspiration seeds, then uses repeated Jev comparisons to surface
+ideas with support across trials. The included skill helps a downstream
+reasoning model credit and rank each idea, combine only ideas whose mechanisms
+reinforce one another, and preserve the rest as standalone possibilities.
+Sfumato widens exploration; it does not choose the final reasoner or claim that
+an idea is a validated solution.
+
+This repository contains the Gradio API and the `sfumato` agent skill.
+
 This Space turns a caller-written problem brief into a packet of ranked,
 independent inspiration seeds. It does not compose the brief from a chat
 transcript and does not run the final reasoning model. The caller chooses that
